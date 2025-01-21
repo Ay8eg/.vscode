@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimal Instagram</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fafafa;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+            background-color: #fff;
+            border-bottom: 1px solid #dbdbdb;
+        }
+        .header img {
+            height: 40px;
+        }
+        .profile {
+            display: flex;
+            padding: 20px 0;
+            border-bottom: 1px solid #dbdbdb;
+        }
+        .profile img {
+            border-radius: 50%;
+            height: 60px;
+            margin-right: 20px;
+        }
+        .profile h2 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+        .post {
+            background-color: #fff;
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #dbdbdb;
+            border-radius: 10px;
+        }
+        .post img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .post-footer {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+        }
+        .post-footer .likes {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Header -->
+    <div class="header">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1024px-Instagram_icon.png" alt="Instagram Logo">
+        <input type="text" placeholder="Search" style="padding: 5px;">
+    </div>
+
+    <!-- Profile Section -->
+    <div class="profile">
+        <img src="https://via.placeholder.com/60" alt="Profile Picture">
+        <div>
+            <h2>Username</h2>
+            <p>Bio: Lorem ipsum dolor sit amet.</p>
+        </div>
+    </div>
+
+    <!-- Post 1 -->
+    <div class="post">
+        <img src="https://via.placeholder.com/600x400" alt="Post Image">
+        <div class="post-footer">
+            <span class="likes">100 likes</span>
+            <span>1 hour ago</span>
+        </div>
+    </div>
+
+    <!-- Post 2 -->
+    <div class="post">
+        <img src="https://via.placeholder.com/600x400" alt="Post Image">
+        <div class="post-footer">
+            <span class="likes">150 likes</span>
+            <span>2 hours ago</span>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
